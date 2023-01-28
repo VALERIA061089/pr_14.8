@@ -13,6 +13,10 @@ h2 {
     font-style: italic;
 }
 
+.login_text {
+    color: rgb(235, 218, 157);
+}
+
 .slogan {
     color: rgb(255, 223, 223);
     font-family: 'Times New Roman', Times, serif;

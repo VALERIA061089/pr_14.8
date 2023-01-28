@@ -17,7 +17,7 @@ include 'time.php';
 <div class="wrapper">
         <div class="container">
             <header class="header">
-            <h1 class="slogan">Подари себе удовольствие!</h1>
+            <h2 class="slogan">Подари себе удовольствие!</h2>
             <?php
             if (isset($_SESSION['authorized'])) {
                 echo '<div class="login">
@@ -33,15 +33,15 @@ include 'time.php';
             </header>
             <?php
         if (isset($_SESSION['authorized']) && getCurrentUser() !== null) {
-            echo '<h2 class = "introduction_user">Здравствуйте,' . ' ' . getCurrentUser() . '!</h2>';
+            echo '<h2 class = "user">Здравствуйте,' . ' ' . getCurrentUser() . '!</h2>';
             if ($_SESSION['checkDayBirth'] > 0) {
                 echo '
-                <div class = "introduction_day_brth">
+                <div>
                 <p>До вашего дня рождения осталось:' . ' ' . $_SESSION['checkDayBirth'] . ' ' . 'дней (-ень)</p>
                 </div>';
             } else if ($_SESSION['checkDayBirth'] === 0) {
                 echo '
-                <div class = "introduction_day_brth">
+                <div>
                 <p> Поздравляем Вас с Днем Рождения! В честь этого мы подготовили для вас специальную акцию!</p>
                 </div>';
             }
