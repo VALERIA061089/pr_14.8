@@ -1,0 +1,90 @@
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    background-color: #d0d1d3;
+    background: url(https://img5.goodfon.ru/wallpaper/nbig/0/bb/relax-spa-bambuk-tsvety-sol-dlia-vanny-kamni-polotentsa.jpg) bottom no-repeat;
+    background-size: cover;
+}
+
+h2 {
+    font-style: italic;
+}
+
+.slogan {
+    color: rgb(255, 223, 223);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-style: italic;
+    margin-top: 200px;
+    margin-left: 300px;
+}
+
+.log_out, .sign_in, .login {
+    margin-left: auto;
+    margin-right: 20px;
+    margin-top: -350px;
+    font-size: 20px;
+    color: rgb(255, 223, 223);
+    padding: 5px;
+    text-decoration: none;
+}
+
+.main {
+    background: linear-gradient(30deg, #6fb09df6, #d8e48a);
+}
+
+.products {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 50px 0;
+}
+.products-item {
+    width: 30%;
+    margin-bottom: 50px;
+    margin-right: 60px;
+}
+.products-item:nth-child(3n) {
+    margin-right: 0;
+}
+.products-item > h4 {
+    margin-bottom: 10px;
+}
+.products-item > p {
+    margin-bottom: 10px;
+}
+.img-card {
+    width: 100%;
+    height: 360px;
+    margin-bottom: 15px;
+}
+.footer {
+	flex: 0 0 auto;
+    height: 100px;
+    background-color: #373737;
+    padding-top: 20px;
+}
+.footer-list {
+    display: flex;
+    align-items: center;
+    margin: 0 0 20px;
+    padding: 0;
+    list-style: none;
+    justify-content: center;
+}
+.footer-list_item {
+    margin: 0 8px;
+    text-align: center;
+
+}
+.footer-list_link {
+    color: #fff;
+}
+.copyright {
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
